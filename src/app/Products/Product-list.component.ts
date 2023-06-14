@@ -4,7 +4,8 @@ import { NgModel } from "@angular/forms";
 
 @Component({
     selector:'pm-products',
-    templateUrl:'./Product-list.component.html'
+    templateUrl:'./Product-list.component.html',
+    styleUrls:['./Product-list.component.css']
 })
 export class ProductListComponent implements OnInit{
     pageTitle:string='Product List';
